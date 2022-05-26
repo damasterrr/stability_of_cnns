@@ -13,7 +13,7 @@ function deform_24(original, m) #m recommended from 0.1 to 1
 
     
     s = size(original)[1]
-    #deformed = RGB.(Array(reshape(range(0,stop=0,length=s*s), s, s)))
+    
     original2 = copy(original)
     
     function move_24(x_0, y_0, m, cycle_len)
@@ -35,9 +35,7 @@ function deform_24(original, m) #m recommended from 0.1 to 1
             end
         end   
     end
-    #restored = restore(original2, original, m)
-    #return mosaicview(restored, original2, original; nrow=1)
-    #return deformed
+    
     return original2
 end
 
