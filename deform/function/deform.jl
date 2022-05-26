@@ -1,6 +1,6 @@
 module deform
 
-function deform_24(original, m) #m recommended from 0.1 to 1
+function deform(original, m) #m recommended from 0.1 to 1
     
     nfreq = 4
     as  = randn(nfreq, nfreq)
