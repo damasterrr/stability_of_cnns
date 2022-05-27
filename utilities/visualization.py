@@ -1,3 +1,5 @@
+### credit for the code: Vincent Rougeau-Moss
+
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
@@ -34,11 +36,6 @@ print(len(x))
 # Therefore, different methods can be used to define the value that
 # will represent the 3 grouped points and I put some examples.
 
-x = np.array(data111)
-y = np.array(data333)
-z = np.array(data222)
-c = np.array(data444)
-print(len(x),len(y))
 triangles = mtri.Triangulation(x, y).triangles;
 
 choice_calcuation_colors = 1;
