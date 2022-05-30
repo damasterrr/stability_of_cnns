@@ -1,6 +1,8 @@
 # stability_of_cnns
 In this project I want to test and try to improve performance of chosen state-of-the-art convolutional neural networks applying Gaussian process to the training set.
 This reposatory is part of the Bachelor's project for the university with the name "Geometric prior for image processing with convolutional neural networks".
+.
+In the project Julia is used to deform images whereas Python to train model on them.
 
 ### Getting started
 
@@ -20,3 +22,7 @@ Additional dependencies for python files:
    ```
 
 ### Usage
+
+
+
+[product-screenshot]: images/screenshot.png
