@@ -24,7 +24,7 @@ Additional dependencies for python files:
 ### Usage
 import first image from the database
 ```sh
-image = data_batch_1[b'data'][1]
+image = data_batch_1['data'][1]
 ```
 prepare for transformation
 ```sh
