@@ -22,8 +22,33 @@ Additional dependencies for python files:
    ```
 
 ### Usage
-
+import first image from the database
+```sh
+image = data_batch_1[b'data'][1]
+```
+prepare for transformation
+```sh
+image = image.reshape(3,32,32)
+image = image.transpose(1,2,0)
+```
+transform data with imported Julia function
+```sh
+dimage = Julia_function.deform(image,0.1)
+```
+Display the image
+```sh
+plt.imshow(dimage)
+```
+deformed image compared to the original with magnitude (m) of 0.1
 ![m1]
+m = 0.2
+![m2]
+m = 0.3
+![m3]
+m = 0.4
+![m4]
+
+Note that in this example 'nice' deformations are chosen. Typically with the increasing magnitude the image is becoming less and less recognisable by convolutional neural networks.
 
 [m1]: images/m1.png
 [m2]: images/m2.png
