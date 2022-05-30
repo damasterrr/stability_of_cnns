@@ -23,6 +23,6 @@ Additional dependencies for python files:
 
 ### Usage
 
-
+[![Product Name Screen Shot][product-screenshot]]
 
 [product-screenshot]: images/screenshot.png
