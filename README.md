@@ -39,13 +39,20 @@ Display the image
 ```sh
 plt.imshow(dimage)
 ```
-deformed image compared to the original with magnitude (m) of 0.1
+deformed image compared to the original with magnitude (m) of 0.1 :
+
 ![m1]
-m = 0.2
+
+m = 0.2 :
+
 ![m2]
-m = 0.3
+
+m = 0.3 :
+
 ![m3]
-m = 0.4
+
+m = 0.4 :
+
 ![m4]
 
 Note that in this example 'nice' deformations are chosen. Typically with the increasing magnitude the image is becoming less and less recognisable by convolutional neural networks.
