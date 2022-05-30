@@ -8,8 +8,8 @@ I suggest using docker environment:
 * [Docker Data Science Stack](https://hub.docker.com/r/jupyter/datascience-notebook)
 
 Additional dependencies for python files:
-* [PyTorch]([https://hub.docker.com/r/jupyter/datascience-notebook](https://pytorch.org/)
-* [PyTorch Torchvision]([https://hub.docker.com/r/jupyter/datascience-notebook](https://pytorch.org/vision/stable/index.html)
+* [PyTorch]([ttps://hub.docker.com/r/jupyter/datascience-notebook)
+* [PyTorch Torchvision](https://hub.docker.com/r/jupyter/datascience-notebook)
 
 ### Installation
 
