@@ -8,12 +8,13 @@ I suggest using docker environment:
 * [Docker Data Science Stack](https://hub.docker.com/r/jupyter/datascience-notebook)
 
 Additional dependencies for python files:
-* [PyTorch]([ttps://hub.docker.com/r/jupyter/datascience-notebook)
+* [PyTorch](https://hub.docker.com/r/jupyter/datascience-notebook)
 * [PyTorch Torchvision](https://hub.docker.com/r/jupyter/datascience-notebook)
 
 ### Installation
 
 1. Clone the repo
+
    ```sh
    git clone https://github.com/sukhovd/stability_of_cnns
    ```
