@@ -23,6 +23,9 @@ Additional dependencies for python files:
 
 ### Usage
 
-[![Product Name Screen Shot][product-screenshot]]
+[[m1]]
 
-[product-screenshot]: images/screenshot.png
+[m1]: images/m1.png
+[m2]: images/m2.png
+[m3]: images/m3.png
+[m4]: images/m4.png
