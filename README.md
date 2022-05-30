@@ -3,4 +3,4 @@ In this project I want to test and try to improve performance of chosen state-of
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
+* [Docker Data Science Stack](https://hub.docker.com/r/jupyter/datascience-notebook)
