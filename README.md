@@ -23,7 +23,7 @@ Additional dependencies for python files:
 
 ### Usage
 
-[![Product Name Screen Shot][m1]]
+![m1]
 
 [m1]: images/m1.png
 [m2]: images/m2.png
