@@ -26,7 +26,7 @@ function deform(original, m) #m recommended from 0.1 to 1
     
     for i in range(0.01,0.99,step=0.5/s)
         for j in range(0.01,0.99,step=0.5/s)
-            a = floor.(Int, move_24(i,j,m,2) .* s)
+            a = floor.(Int, move_24(i,j,m,15) .* s) # <----------------- number of integrations
             #println(a)
             for k in range(1,3,step=1)
 
