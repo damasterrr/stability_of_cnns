@@ -33,7 +33,7 @@ image = image.transpose(1,2,0)
 ```
 transform data with imported Julia function
 ```sh
-dimage = Julia_function.deform(image,0.1)
+dimage = deform.deform(image,0.001)
 ```
 Display the image
 ```sh
